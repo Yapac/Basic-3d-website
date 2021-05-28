@@ -1,0 +1,138 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: #111111;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #0c0c0c;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #d3d3d3;
+}
+html,
+body
+{
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #111111;
+    background: fixed;
+    background-image: linear-gradient(43deg, #0f0f0f 0%, #111111 44%, #111111 100%);
+}
+body{
+    /* cursor: none; */
+    overflow-x: hidden;
+}
+.webgl
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: none;
+    mix-blend-mode: exclusion;
+}
+.containera{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+section{
+    height: 100vh;
+
+}
+h1{
+    font-size: 8vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+
+
+
+
+
+.navbar {
+    transition: all 0.4s;
+    height: 10%;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
+
+.PicCard{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(12, 12, 12);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    margin:10% auto;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.PicCard span{
+  height: 100%;
+  left:0;
+  position: absolute;
+  transition: 1s;
+}
+
+ /* Cursor Styling */
+
+
+/*# sourceMappingURL=main.css.map*/
